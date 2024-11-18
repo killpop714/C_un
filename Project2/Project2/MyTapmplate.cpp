@@ -2,14 +2,13 @@
 #include <algorithm>
 #include <iostream>
 
-using namespace std
+using namespace std;
+
+void main()
 {
-	void main()
-	{
-		vector<int> vec = { 1,2,3,4,5 };
-		reverse(vec.begin(), vec.end);
-		for (int num : vec) {
-			cout << num << "";
-		}
+	vector<int> vec = { 1,2,3,4,5 };
+	reverse(vec.begin, vec.end);
+	for (int num : vec) {
+		cout << num << "";
 	}
 }
