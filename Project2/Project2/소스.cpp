@@ -1,4 +1,4 @@
-//#include <stdio.h>
+#include <stdio.h>
 
 //int main()
 //{
@@ -45,3 +45,32 @@
 //	//}
 //	return 0;
 //}
+
+int main()
+{
+	//최대 50까지
+	int n = 0;
+	while (1)
+	{
+		printf("값을 입력하세요.");
+		scanf_s("%d", &n);
+
+		if (n < 0)
+			return 0;
+
+		else if (n > 50)
+		{
+			printf("값이 너무 큽니다.\n");
+			continue;
+		}
+		for (int i = 0; i < n; i++)
+		{
+			printf("*");
+		}
+		printf("\n");
+
+		
+	}
+
+	return 0;
+}
