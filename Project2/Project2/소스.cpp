@@ -2,23 +2,35 @@
 
 int main()
 {
-	double Sumdata = 1;
-	int n=0;
-	
+	int e[5][5] = { {1, 2, 3, 4, 5},{6,7,8,9,10} };
 
-	while (n <= 0  && (sizeof(n) != sizeof(char))
+	for (int i = 0; i < 5; i++)
 	{
-		printf("값을 입력하세요:");
-		scanf_s("%d", &n);
-		if (n <= 0)
-			printf("다시입력하세요.\n");
+		for (int j = 0; j < 5; j++)
+		{
+			printf("배열 %d\n", e[i][j]);
+		}
 	}
 
-	for (int i = 1; i <= n; i++)
-	{
-		Sumdata *= (double)n;
+	//double Sumdata = 1;
+	//int n=0;
+	//
+	//printf("값을 입력하세요:");
+	//scanf_s("%d", &n);
 
-		printf("%d 번째 값: %.f\n",i,Sumdata);
-	}
+	//while (n <= 0)
+	//{
+	//	printf("값을 입력하세요:");
+	//	scanf_s("%d", &n);
+	//	printf("값을 입력하세요:");
+
+	//}
+
+	//for (int i = 1; i <= n; i++)
+	//{
+	//	Sumdata *= (double)n;
+
+	//	printf("%d 번째 값: %.f\n",i,Sumdata);
+	//}
 	return 0;
 }
