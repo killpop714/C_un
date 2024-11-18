@@ -1,4 +1,2 @@
-﻿  MyTapmplate.cpp
-  소스.cpp
-  코드를 생성하고 있습니다...
-  Project2.vcxproj -> C:\Users\BON519\Desktop\Visual_Studio\20233774\C_un\Project2\Debug\Project2.exe
+﻿  소스.cpp
+C:\Users\BON519\Desktop\Visual_Studio\20233774\C_un\Project2\Project2\소스.cpp(14,2): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
