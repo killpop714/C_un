@@ -4,8 +4,9 @@ int main()
 {
 	double Sumdata = 1;
 	int n=0;
+	
 
-	while (n <= 0 && (int)n)
+	while (n <= 0  && (sizeof(n) != sizeof(char))
 	{
 		printf("값을 입력하세요:");
 		scanf_s("%d", &n);
