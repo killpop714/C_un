@@ -2,10 +2,11 @@
 
 void main()
 {
-	int i;
+	int i, sum;
 
-	for (i = 0; i < 5; i++)
+	for (i = 0; i <= 10; i++)
 	{
-		printf("%d ¹øÂ°", i);
+		sum += i;
 	}
+	printf("%d", sum);
 }
