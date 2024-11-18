@@ -2,7 +2,7 @@
 
 int main()
 {
-	double Sumdata = 1;
+	long Sumdata = 1;
 	int n=0;
 
 	while (n <= 0)
@@ -13,9 +13,9 @@ int main()
 
 	for (int i = 1; i <= n; i++)
 	{
-		Sumdata *= (double)i;
+		Sumdata *= (long)i;
 
-		printf("%d 번째 값: %lf\n",i,Sumdata);
+		printf("%d 번째 값: %ld\n",i,Sumdata);
 	}
 	return 0;
 }
