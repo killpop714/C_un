@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <iostream>
 //int main()
 //{
 //	int e[3][5] = { {1, 2, 3, 4, 5},{6,7,8,9,10},{11,12,13,14,15} };
@@ -74,3 +74,36 @@
 //
 //	return 0;
 //}
+
+
+int fac() {
+	int result = 1;
+	int n = 0;
+	printf("반복횟수:");
+	scanf_s("%d", &n);
+	for (int i = 0; i <= n; i++)
+	{
+		result += i;
+	}
+	return result;
+}
+
+int get_tax(int income)
+{
+	int result = 0;
+
+	if (income > 1000)
+		return result = 1000 * 0.08 + (income - 1000) * 0.1;
+	else
+		return result = income * 0.08;
+
+}
+
+int main()
+{
+	int income = 0;
+	printf("소득을 입력하세요(만원):");
+	scanf_s("%d", &income);
+	get_tax(income);
+	printf("소득세는:%d(만원)", get_tax(income));
+}
