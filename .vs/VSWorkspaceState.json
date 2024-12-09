@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Project2",
-    "\\Project2\\Project2"
+    "\\Project2\\Project2",
+    "\\Project2\\Project2\\Debug"
   ],
-  "SelectedNode": "\\Project2\\Project2\\MyTapmplate.cpp",
+  "SelectedNode": "\\Project2\\Project2\\소스.cpp",
   "PreviewInSolutionExplorer": false
 }
